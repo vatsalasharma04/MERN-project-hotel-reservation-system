@@ -1,0 +1,19 @@
+.center{
+    text-align: center;
+}
+.margintop{
+    margin-top: 70px;
+}
+.moremargin{
+    margin-top: 90px;
+}
+.textcolor{
+    color: white;
+}
+.bgimage{
+    background-image: url(./images/bgtext.jpg);
+}
+.bgimages{
+    background-image: url(./images/bgblue.jpg);
+}
+

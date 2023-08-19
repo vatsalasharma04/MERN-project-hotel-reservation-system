@@ -1,0 +1,263 @@
+.h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', serif;
+}
+.h5{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Times New Roman', serif;
+    text-emphasis: italic;
+}
+.cont{
+    padding-left: 250px;
+    margin-right: 0px;
+    padding-top: 15px;
+}
+.contact{
+    color: aliceblue;
+}
+.para{
+    text-align: center;
+    padding-top: 30px;
+}
+.para2{
+    font-family: 'Times New Roman', serif;
+    
+}
+
+/* contactform */
+/* .fo{
+  background: white;
+  width:90%;
+  max-width: 800px;
+  margin:50px auto;
+  font-family: Calibri, Arial, sans-serif;
+  padding:20px;
+}
+h1, p{
+  text-align: center;
+}
+label{
+  display:block;
+  margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+/* input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:indigo;
+}
+option{
+  color:blue;
+  background: lavenderBlush;
+}
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+}
+
+input[type=submit]{
+  background:lightcoral;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background: lavenderBlush;
+} */
+
+/* hover and focus states */
+/* input[type=submit]:hover,
+input[type=submit]:focus{
+  background: rgb(117, 193, 236);
+  outline:none;
+}
+
+@media screen and (min-width:600px) { */
+  /*  make the form 2 columns */
+  /* form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+}
+.divv{
+    padding: 50px;
+    background-color: rgb(117, 193, 236);
+    margin-bottom: 20px;
+}  */
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+.bo{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #71b7e6,#71b7e6, #3459df);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container3 .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container3 .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+.container3 .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #5029bc;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container3 .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container3{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container3 .content{
+    flex-direction: column-reverse;
+  }
+ .container3 .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container3 .content .left-side::before{
+   display: none;
+ }
+ .container3 .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}

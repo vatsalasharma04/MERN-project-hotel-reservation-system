@@ -1,0 +1,17 @@
+.h11{
+    text-align: center;
+    margin-top: -350px;
+    padding:30px;
+    background: linear-gradient(135deg, #71b7e6, #3459df);
+    font-family: 'Times New Roman', serif;
+}
+.para{
+    font-family: 'Times New Roman', serif;
+}
+/* .btn{
+    padding:50px,40px,50px,40px;
+    margin-left: 150px;
+    text-align: center;
+    color: black;
+    background-color: rgb(117, 193, 236);
+} */

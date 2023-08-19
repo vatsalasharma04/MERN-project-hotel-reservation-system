@@ -1,0 +1,32 @@
+.center{
+  justify-content: center;
+}
+.centerr{
+    text-align: center;
+}
+.color{
+    color: aqua;
+}
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+ .marginn{margin-left: 320px;}
+
+ .backgroundcolor{
+  background-color: #e3f2fd;
+ }
+.textcolor{
+  color: black;
+}
